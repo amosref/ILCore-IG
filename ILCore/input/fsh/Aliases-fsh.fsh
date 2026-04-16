@@ -122,7 +122,6 @@ Alias: $ext-med-req-procedure-reference = http://fhir.health.gov.il/StructureDef
 Alias: $ext-patient-birth-place =       http://fhir.health.gov.il/StructureDefinition/il-core-patient-birth-place
 Alias: $ext-sub-dosage-step =       http://fhir.health.gov.il/StructureDefinition/ext-sub-dosage-step
 Alias: $ext-languages-il-core =         http://fhir.health.gov.il/StructureDefinition/il-core-language
-Alias: $ext-il-core-birthsex =          http://fhir.health.gov.il/StructureDefinition/ext-il-core-birthsex
 Alias: $ext-resource-encounter-stage-context = http://fhir.health.gov.il/StructureDefinition/ext-resource-encounter-stage-context
 Alias: $ext-medication-regimen = http://fhir.health.gov.il/StructureDefinition/ext-medication-regimen
 
@@ -144,6 +143,7 @@ Alias: $modeOfArrival =                 http://hl7.org/fhir/StructureDefinition/
 Alias: $body-position =                 http://hl7.org/fhir/StructureDefinition/observation-bodyPosition
 Alias: $contact-point-purpose =         http://hl7.org/fhir/StructureDefinition/contactpoint-purpose
 Alias: $alternate-reference =           http://hl7.org/fhir/StructureDefinition/alternate-reference
+Alias: $ext-birth-sex =                 http://hl7.org/fhir/StructureDefinition/individual-recordedSexOrGender
 
 // Codesystems - ILCore
 Alias: $icd9-il =                       http://fhir.health.gov.il/cs/icd9il
@@ -324,7 +324,7 @@ Alias: $vs-patient-visitor-type-moh =   http://fhir.health.gov.il/ValueSet/patie
 Alias: $vs-encounter-paying-entity-moh = http://fhir.health.gov.il/ValueSet/encounter-paying-entity-moh
 Alias: $vs-il-core-extended-country-codes = http://fhir.health.gov.il/ValueSet/il-core-extended-country-codes
 Alias: $vs-il-core-lang =               http://fhir.health.gov.il/ValueSet/il-core-languages
-Alias: $vs-il-core-birth-sex =          http://fhir.health.gov.il/ValueSet/il-core-birth-sex
+// Alias: $vs-il-core-birth-sex =          http://fhir.health.gov.il/ValueSet/il-core-birth-sex
 Alias: $vs-resource-encounter-role =    http://fhir.health.gov.il/ValueSet/resource-encounter-role
 // ValueSets - external
 Alias: $bodySite =                      http://hl7.org/fhir/ValueSet/body-site
