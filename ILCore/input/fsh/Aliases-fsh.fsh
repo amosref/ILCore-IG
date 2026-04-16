@@ -324,7 +324,6 @@ Alias: $vs-patient-visitor-type-moh =   http://fhir.health.gov.il/ValueSet/patie
 Alias: $vs-encounter-paying-entity-moh = http://fhir.health.gov.il/ValueSet/encounter-paying-entity-moh
 Alias: $vs-il-core-extended-country-codes = http://fhir.health.gov.il/ValueSet/il-core-extended-country-codes
 Alias: $vs-il-core-lang =               http://fhir.health.gov.il/ValueSet/il-core-languages
-// Alias: $vs-il-core-birth-sex =          http://fhir.health.gov.il/ValueSet/il-core-birth-sex
 Alias: $vs-resource-encounter-role =    http://fhir.health.gov.il/ValueSet/resource-encounter-role
 // ValueSets - external
 Alias: $bodySite =                      http://hl7.org/fhir/ValueSet/body-site
