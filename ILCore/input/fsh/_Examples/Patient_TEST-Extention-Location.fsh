@@ -15,7 +15,7 @@
 // * extension[immigration].extension[status].valueCodeableConcept.coding.display = "Naturalized citizen"
 // * extension[birthPlace].valueAddress.line = "New york City, NY, USA"
 // * extension[birthPlace].valueAddress.country = #USA
-// * extension[birthSex].valueCode = #M
+// * extension[birthSex].extension[value] = #M
 // * active = true
 // // * name.family = "לוי"
 // // * name.given = "הרצל"
