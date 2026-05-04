@@ -8,18 +8,16 @@ Description: "Israel Core constraints for nursing unit locations"
 * insert ConformanceMetadata
 * ^status = #draft
 
-* type 1..1
-// * type = $il-core-hospital-nursing-unit#il-core-hospital-nursing-unit "Hospital nursing unit" //delete once CS is removed
-* type ^slicing.discriminator.type = #value
-* type ^slicing.discriminator.path = "system"
+* type 2..2
+* type ^slicing.discriminator.type = #pattern
+* type ^slicing.discriminator.path = "$this"
 * type ^slicing.rules = #open
-* type contains hospital-unit 1..1 and nursing-unit 1..1
-* type[nursing-unit].system = $il-core-location-physical-type (exactly)
-* type[nursing-unit].code = #hospital-nursing-unit (exactly)
-* type[nursing-unit].display = "Hospital nursing unit" (exactly)
-* type[hospital-unit].system = "http://hl7.org/fhir/ValueSet/location-physical-type" (exactly)
-* type[hospital-unit].code = #HU (exactly)
-* type[hospital-unit].display = "Hospital unit" (exactly)
-* type ^short = "Hospital nursing unit"
-* type ^definition = "Fixed to the IL Core hospital nursing unit code."
-* mode = #kind
+* type contains
+    nursing-unit 1..1 and
+    hospital-unit 1..1
+* type[nursing-unit] = $il-core-location-physical-type#hospital-nursing-unit "Hospital nursing unit"
+* type[nursing-unit] ^short = "Hospital nursing unit"
+* type[nursing-unit] ^definition = "Identifies the Location resource as a hospital nursing unit."
+* type[hospital-unit] = $v3-RoleCode#HU "Hospital Unit"
+* type[hospital-unit] ^short = "Hospital unit"
+* type[hospital-unit] ^definition = "Provides the HL7 v3 RoleCode Hospital Unit classification to satisfy the extensible Location.type semantics."
