@@ -4,9 +4,6 @@ Extension for associating a clinical resource with workflow role, optional opera
 ## Canonical
 [http://fhir.health.gov.il/StructureDefinition/ext-resource-role-context](http://fhir.health.gov.il/StructureDefinition/ext-resource-role-context)
 
-## See also
-- [ILHDP Encounter IG](./ILHDP-Encounter-IG.md), especially section 6 on additional related data.
-
 ## Guidance
 - Use this extension when a resource needs to carry workflow-specific or source-system-specific context beyond what the native model can express cleanly.
 - The extension contains:
@@ -21,6 +18,3 @@ Extension for associating a clinical resource with workflow role, optional opera
 
 ## Example pattern
 - An Observation may keep its regular clinical `encounter` reference pointing to a standard inpatient care segment while using `ext-resource-role-context` to carry admission-stage or discharge-stage workflow context.
-
-## Related examples
-- [Admission BP observation example](./Observation-hdp-bp-admission-ward-a.doc.md)

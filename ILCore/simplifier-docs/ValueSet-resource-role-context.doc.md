@@ -5,7 +5,6 @@ Value set used to attribute resources to workflow stage role context. The value 
 [http://fhir.health.gov.il/ValueSet/resource-role-context](http://fhir.health.gov.il/ValueSet/resource-role-context)
 
 ## See also
-- [ILHDP Encounter IG](./ILHDP-Encounter-IG.md), especially section 6.
 - [Ext: Resource Role Context](./StructureDefinition-ext-resource-role-context.doc.md)
 - [IL Core Resource Role Context Code System](./CodeSystem-il-core-resource-role-context.doc.md)
 
