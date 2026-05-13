@@ -353,6 +353,7 @@ Alias: $il-core-encounter-type                  = http://fhir.health.gov.il/cs/i
 Alias: $il-core-hospital-nursing-unit           = http://fhir.health.gov.il/cs/il-core-hospital-nursing-unit
 Alias: $il-core-diagnosis-role                  = http://fhir.health.gov.il/cs/il-core-diagnosis-role
 Alias: $il-core-resource-role-context           = http://fhir.health.gov.il/cs/il-core-resource-role-context
+Alias: $il-core-practitioner-role               = http://fhir.health.gov.il/cs/il-core-practitioner-role
 Alias: $diagnosis-role                          = http://terminology.hl7.org/CodeSystem/diagnosis-role
 // New ValueSets
 Alias: $vs-diagnosis-role                       = http://terminology.hl7.org/ValueSet/diagnosis-role
