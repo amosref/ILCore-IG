@@ -1,4 +1,4 @@
-ValueSet: ILCoreSensitivityLabels
+ValueSet: VsILCoreSensitivityLabels
 Id: il-core-sensitivity-labels
 Title: "IL Core Sensitivity Labels"
 Description: "Sensitivity label value set combining local IL Core sensitivity labels and selected HL7 v3 ActCode sensitivity codes."
