@@ -32,3 +32,4 @@ Description: "Sensitivity label value set combining local IL Core sensitivity la
 * $v3-ActCode#NOPAT ^designation[+].language = #he
 * $v3-ActCode#NOPAT ^designation[=].use = $il-core-designation-use#local-policy-interpretation "Local policy interpretation"
 * $v3-ActCode#NOPAT ^designation[=].value = "מידע שאין לשתף עם המטופל או משפחתו כולל הצגת המידע למטופל/ת באיזור האישי המקוון, ללא אישור הגורם המטפל"
+
